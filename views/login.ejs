@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from agileui.com/demo/monarch/demo/admin-template/login-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Sep 2017 07:44:22 GMT -->
+<head>
+ <% include ./head_html %>
+ 
+</head>
+<body>
+<div id="loading">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+
+<style type="text/css">
+
+    html,body {
+        height: 100%;
+    }
+
+</style>
+<div class="center-vertical bg-black">
+    <div class="center-content row">
+        <form action="/login" method="post" id="login-validation" class="center-margin col-xs-11 col-sm-5" >
+           
+            <div id="login-form" class="content-box">
+                <div class="content-box-wrapper pad20A">
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Username:</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon addon-inside bg-white font-primary">
+                                <i class="glyph-icon icon-user"></i>
+                            </span>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="username" placeholder="Enter Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password:</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon addon-inside bg-white font-primary">
+                                <i class="glyph-icon icon-unlock-alt"></i>
+                            </span>
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="checkbox-primary col-md-12" style="height: 20px;">
+                            <!-- show any messages that come back with authentication -->
+            <% if (message.length > 0) { %>
+                <div class="alert alert-danger"><%= message %></div>
+            <% } %>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="button-pane">
+                    <button type="submit" class="btn btn-block btn-primary">Login</button>
+                </div>
+            </div>
+
+         
+
+        </form>
+
+    </div>
+</div>
+
+
+    <!-- WIDGETS -->
+
+<script type="text/javascript" src="../public/assets/bootstrap/js/bootstrap.js"></script>
+
+<!-- Bootstrap Dropdown -->
+
+<!-- <script type="text/javascript" src="../public/assets/widgets/dropdown/dropdown.js"></script> -->
+
+<!-- Bootstrap Tooltip -->
+
+<!-- <script type="text/javascript" src="../public/assets/widgets/tooltip/tooltip.js"></script> -->
+
+<!-- Bootstrap Popover -->
+
+<!-- <script type="text/javascript" src="../public/assets/widgets/popover/popover.js"></script> -->
+
+<!-- Bootstrap Progress Bar -->
+
+<script type="text/javascript" src="../public/assets/widgets/progressbar/progressbar.js"></script>
+
+<!-- Bootstrap Buttons -->
+
+<!-- <script type="text/javascript" src="../public/assets/widgets/button/button.js"></script> -->
+
+<!-- Bootstrap Collapse -->
+
+<!-- <script type="text/javascript" src="../public/assets/widgets/collapse/collapse.js"></script> -->
+
+<!-- Superclick -->
+
+<script type="text/javascript" src="../public/assets/widgets/superclick/superclick.js"></script>
+
+<!-- Input switch alternate -->
+
+<script type="text/javascript" src="../public/assets/widgets/input-switch/inputswitch-alt.js"></script>
+
+<!-- Slim scroll -->
+
+<script type="text/javascript" src="../public/assets/widgets/slimscroll/slimscroll.js"></script>
+
+<!-- Slidebars -->
+
+<script type="text/javascript" src="../public/assets/widgets/slidebars/slidebars.js"></script>
+<script type="text/javascript" src="../public/assets/widgets/slidebars/slidebars-demo.js"></script>
+
+<!-- PieGage -->
+
+<script type="text/javascript" src="../public/assets/widgets/charts/piegage/piegage.js"></script>
+<script type="text/javascript" src="../public/assets/widgets/charts/piegage/piegage-demo.js"></script>
+
+<!-- Screenfull -->
+
+<script type="text/javascript" src="../public/assets/widgets/screenfull/screenfull.js"></script>
+
+<!-- Content box -->
+
+<script type="text/javascript" src="../public/assets/widgets/content-box/contentbox.js"></script>
+
+<!-- Overlay -->
+
+<script type="text/javascript" src="../public/assets/widgets/overlay/overlay.js"></script>
+
+<!-- Widgets init for demo -->
+
+<script type="text/javascript" src="../public/assets/js-init/widgets-init.js"></script>
+
+<!-- Theme layout -->
+
+<script type="text/javascript" src="../public/assets/themes/admin/layout.js"></script>
+
+<!-- Theme switcher -->
+
+<script type="text/javascript" src="../public/assets/widgets/theme-switcher/themeswitcher.js"></script>
+
+</body>
+
+<!-- Mirrored from agileui.com/demo/monarch/demo/admin-template/login-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Sep 2017 07:44:22 GMT -->
+</html>
