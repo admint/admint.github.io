@@ -2,7 +2,8 @@
   "name": "node-authentication",
   "main": "server.js",
   "scripts": {
-    "predeploy": "node ./server"
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
